@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../assets/bg.jpg");
+}
+
+h1 {
+  color: white;
+  font-style: italic;
+}
+.container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  position: relative;
+}
+
+.user-text {
+  height: 10%;
+  position: relative;
+}
+#input-fields {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 40px;
+}
+
+#input-fields {
+  width: 56.5%;
+  height: 100%;
+  font-size: 26px;
+  padding-left: 43%;
+  /* border: none; */
+  border-color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
